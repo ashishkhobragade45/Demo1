@@ -1,29 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="164dp"
-        android:layout_marginTop="24dp"
-        android:text="Hello World!"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="128dp"
-        android:text="Switch"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
 
-</android.support.constraint.ConstraintLayout>
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+        <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+                android:id="@+id/multiAutoCompleteTextView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MultiAutoCompleteTextView" />
+
+            <MultiAutoCompleteTextView
+            android:id="@+id/multiAutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="MultiAutoCompleteTextView" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:layout_weight="1"/>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Clear" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
